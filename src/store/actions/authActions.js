@@ -1,14 +1,12 @@
 import axios from "axios";
-import {
-  USER_LOGIN_ATTEMPT,
-  USER_LOGIN_SUCCESS1,
-  USER_LOGIN_FAIL,
-  CLEAR_LOGIN_STATE,
-} from "../authConstants";
-
 import AsyncStorage from "@react-native-async-storage/async-storage";
+
 const CHECK_USERNAME_SUCCESS = "CHECK_USERNAME_SUCCESS";
 const CHECK_ANSWER_SUCCESS = "CHECK_ANSWER_SUCCESS";
+const USER_LOGIN_ATTEMPT = "USER_LOGIN_ATTEMPT";
+const USER_LOGIN_SUCCESS1 = "USER_LOGIN_SUCCESS1";
+const USER_LOGIN_FAIL = "USER_LOGIN_FAIL";
+const CLEAR_LOGIN_STATE = "CLEAR_LOGIN_STATE";
 
 axios.defaults.withCredentials = true;
 
